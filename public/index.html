@@ -8,7 +8,19 @@
 <link rel="stylesheet" href="./build/tailwind.css">
 <body>
 
-    <h1 class="text-red-500">Hello World!</h1>
+    <!-- slider container -->
+    <div id="slider" class="relative w-[900px] mx-auto mt-10">
+        <!-- img -->
+        <!-- prev slide btn -->
+        <a id="prev-slide" class="absolute left-0 top-1/2 p-4 -translate-y-1/2 bg-black/30 hover:bg-black/50 text-white hover:text-amber-500 cursor-pointer">❮</a>
+        <!-- next slide btn -->
+        <a id="next-slide" class="absolute right-0 top-1/2 p-4 -translate-y-1/2 bg-black/30 hover:bg-black/50 text-white hover:text-amber-500 cursor-pointer">❯</a>
+    </div>
+    <br>
+    <!-- dots -->
+    <div id="dots-container" class="flex justify-center items-center space-x-5">
+    </div>
     
+    <script src="./src/js/scripts.js"></script>
 </body>
 </html>
