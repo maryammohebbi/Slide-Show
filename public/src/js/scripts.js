@@ -38,6 +38,7 @@ let slideIndex = 0;
 
 function currentSlide(){
     return displaySlide(slideIndex)
+
 }
 
 function slideUI(){
@@ -98,6 +99,8 @@ function showThePrevSlide() {
 
   }
 
-slideUI()
-currentSlide()
-createDots()
+document.addEventListener("DOMContentLoaded", ()=>{
+    slideUI()
+    currentSlide()
+    createDots()
+})
